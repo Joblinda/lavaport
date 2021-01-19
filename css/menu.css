@@ -1,0 +1,343 @@
+*{
+    box-sizing: border-box;
+}
+img{
+    max-width: 100%;
+}
+body{
+    font-family: serif;
+    color: #333;
+    font-size: 1.2rem;
+    line-height: 1.4em;
+    margin:0;
+}
+/* Estilos Tiposgraficos */
+p{
+    margin-bottom: 1.6em;
+}
+h1{
+    font-size: 2rem;
+    line-height: 1.3em;
+}
+/* Tipografia para el menu */
+h3{
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-weight: 100;
+    font-size: 15px;
+}
+/* estilo tipograficos para job grafico en el footer */
+.linda{
+    margin-bottom: 21px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-size: 11px;
+    color: black;
+    line-height: 10px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.intro{
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 21px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+.encabezado{
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 50px;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+.subtitulo{
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 21px;
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+.texto{
+    text-align: center;
+    color: aliceblue;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+.titulo{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    color: white;
+    text-align: center;
+}
+h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    color: white;
+    text-align: center;
+}
+/* Aqui terminan los Estilos Tiposgraficos */
+.container{
+    width: 85%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.container-p{
+    margin-top: 50px;
+}
+.header{
+    background: rgba(0, 0, 0, 0.0);
+    color: white;
+    padding: 2rem 0;
+    /* Quitar esta anotacion en caso de que quieras que sea fijo la cabezara- despues ir a main a quitarigual la anotacion  
+    position: fixed;
+    left: 0;
+    top:0;
+    right: 0;
+    */
+    /*otra forma para exterder el menu es width: 100%; pero me quedare con right:0; */
+}
+.header a{
+    color: white;
+    text-decoration: none;
+}
+.logo-nav-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.logo{
+    letter-spacing: 15px;
+    font-size: 1.2em;
+}
+.menu-icon{
+    display: none;
+}
+.navegation ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    
+}
+.navegation ul li{
+    display: inline-block;
+}
+.navegation ul li a{
+    display: block;
+    padding: 0.5rem 1rem;
+    transition: all 0.4s linear;
+    border-radius: 5px;
+}
+.navegation ul li a:hover{
+    text-decoration: underline 3px white;
+}
+.activem{
+    text-decoration: underline 3px white;
+}
+.main{
+    /* quitar esta anotacion en caso de que sea fijo la cabecera despues ir a quitar la anotacion en .header 
+    padding-top: 12rem;
+    */
+}
+/* home*/
+.cta{
+    display: inline-block;
+    margin-top: 30px;
+    margin-bottom: 100px;
+    margin-right: 20px;
+    padding: 10px;
+    border-radius: 40px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    color: white;
+    background: #FE9D00;
+}
+.footer{
+    float: left;
+    width: 100%;
+    background: white;
+    padding: 2rem 0;
+    text-align: center;
+    margin-top: 1rem;
+}
+/*acerca defotografia */
+.textoc{
+    padding: 20px 100px;
+}
+.textomi{
+    padding: 20px 300px;
+}
+/* book */
+.iconos-b{
+    background: rgba(0, 0, 0, 0.5);
+    float: left;
+    padding: 200px 20px;
+    width: 33%;
+}
+.iconos-bg{
+    background: rgba(0, 0, 0, 0.5);
+    float: left;
+    padding: 20px 20px;
+    width: 33%;
+    height: 171px;
+}
+.iconos-bgi{
+    background: rgba(0, 0, 0, 0.5);
+    float: left;
+    padding: 20px 20px;
+    width: 33%;
+}
+.tcg{
+    width: 34%;
+}
+/*paisaje */
+.fotop{
+    float: left;
+    padding: 10px;
+    width: 33%;
+}
+.tc{
+    width: 34%;
+}
+.fotopcien{
+    float: left;
+    padding: 10px;
+    width: 100%;
+}
+/*iconos*/
+/*iconos*/
+.ico{
+    vertical-align: middle;
+    position: relative;
+    top: -2px;
+}
+/*iconos*/
+/*iconos*/
+/* Responsive */
+/* Responsive */
+/* Responsive */
+/* Responsive */
+/* Responsive */
+@media only screen and (max-width:989px){
+.menu-icon{
+    display: block;
+    cursor: pointer;
+    padding: 0.5rem 1rem;
+}
+.navegation{
+        width: 100%;
+        margin-top: 1rem;
+    }
+.navegation ul{
+        display:none;
+    }
+.navegation ul.show{
+        display:block;
+        background: black;
+    }
+.navegation ul li{
+    display: block;
+}
+.navegation ul li a{
+    display: block;
+    padding: 0.5rem 0;
+    transition: all 0.4s linear;
+    border-radius: 5px;
+    text-align: center;
+}
+.navegation ul li a:hover{
+   
+}
+}
+/* ipad */
+@media only screen and (max-width:989px){
+    .encabezado{
+        font-size: 42px;
+        text-align: center;
+        
+    }
+    .intro{
+        font-size: 18px; 
+        text-align: center;
+    }
+    .subtitulo{
+        font-size: 18px;
+        text-align: center;
+    }
+    .cta{
+        width: 100%;
+        text-align: center;
+    }
+    .textoc{
+    padding: 20px 50px;
+}
+    .textomi{
+    padding: 20px 100px;
+}
+    h2{
+        font-size: 18px;
+    }
+}
+/*Celular */
+@media only screen and (max-width:414px){
+    .encabezado{
+        font-size: 35px;
+        text-align: center;
+        
+    }
+    .intro{
+        font-size: 15px; 
+        text-align: center;
+    }
+    .subtitulo{
+        font-size: 15px;
+        text-align: center;
+    }
+    .cta{
+        width: 100%;
+        text-align: center;
+    }
+    .container-p{
+    margin-top: 25px;
+}
+    .texto{
+        font-size:12px;
+    }
+    .textoc{
+    padding: 20px 20px;
+}
+    .titulo{
+        font-size: 25px;
+    }
+    .textomi{
+    padding: 20px 25px;
+}
+    .iconos-b{
+        float: none;
+        width: 100%;
+        padding: 20px 40px;
+    }
+    .iconos-bg{
+        float: none;
+        width: 100%
+        
+    }
+    .fotop{
+        float: none;
+        width: 100%
+    }
+    .iconos-bgi{
+        float: none;
+        width: 100%;
+    }
+    .quitar{
+        display: none;
+    }
+}

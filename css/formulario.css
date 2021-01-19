@@ -1,0 +1,48 @@
+form{
+    width: 600px;
+    margin: auto;
+    background: rgba(0,0,0,0.5);
+    padding: 10px 30px;
+    box-sizing: border-box;
+    margin-top: 20px;
+    border-radius: 7px;
+}
+h6{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    text-align: center;
+    color: white;
+    margin: 0;
+    font-size: 40px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+input, textarea{
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 7px;
+    box-sizing: border-box;
+    font-size: 17px;
+    border: none;
+}
+textarea{
+    min-height: 100px;
+    max-height: 200px;
+    max-width: 100%;
+    min-width: 100%;
+
+}
+#boton{
+    background: #FE9D00;
+    color: white;
+    padding: 20px;
+    
+}
+#boton:hover{
+    cursor: pointer;
+}
+@media only screen and (max-width:655px){
+    form{
+        width: 100%;
+    }
+}
